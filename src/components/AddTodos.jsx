@@ -23,10 +23,10 @@ export function AddTodos(props) {
   return (
     <div className="container row">
       <div className="input-field col s6 offset-s2">
-          <input placeholder="add todo" id="todo" type="text" className="validate" value={todo} onChange={changeHandler}/>
-          <label htmlFor="todo">Add Todos</label>
+          <input placeholder="Add todo" id="todo" type="text" className="validate" value={todo} onChange={changeHandler}/>
+          {/* <label htmlFor="todo">Add Todos</label> */}
           
-          <a className="waves-effect waves-light btn" href="" onClick={btnHandler}>button</a>
+          <a className="waves-effect waves-light btn" href="" onClick={btnHandler}>Add</a>
       </div>
       
     </div>
